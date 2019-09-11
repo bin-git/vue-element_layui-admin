@@ -1,0 +1,86 @@
+.el-lgRgPs-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    >.el-top-wrapper {
+        width: 100%;
+        height: 50%;
+        background: #fff;
+    }
+    >.el-bottm-wrapper {
+        width: 100%;
+        height: 50%;
+        background: #000;
+    }
+    .el-form-wrapper {
+        position: absolute;
+        top: 150px;
+        margin-left: -210px;
+        left: 50%;
+        z-index: 99;
+        .el-content-panel {
+            width: 420px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            position: relative;
+            border: 0;
+            >.el-panel-body {
+                >.el-mar-ver {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    text-align: center;
+                    >.el-login-title {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 40px;
+                        color: #2b425b;
+                    }
+                    >.el-text-muted {
+                        font-size: 13px;
+                        color: #999;
+                        margin: 0 0 10px;
+                    }
+                }
+                >.el-form {
+                    >.el-form-item {
+                        >.el-form-item__content {
+                            margin-left: 0;
+                        }
+                    }
+                }
+                padding: 15px 30px 25px;
+            }
+            >.el-pad-all {
+                padding: 15px 30px;
+                >.el-row-icon {
+                    padding: 23px 0;
+                    .el-col:nth-child(1) {
+                        >span {
+                            color: #3492ed;
+                        }
+                    }
+                    .el-col:nth-child(2) {
+                        >span {
+                            color: #4daf29;
+                        }
+                    }
+                    .el-col:nth-child(3) {
+                        >span {
+                            color: #cf1900;
+                        }
+                    }
+                    >.el-col {
+                        text-align: center;
+                        >span {
+                            &:hover {
+                                opacity: 0.7;
+                            }
+                            cursor: pointer;
+                            font-size: 3.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
